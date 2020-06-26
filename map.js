@@ -6,7 +6,6 @@ const assertArraysEqual = function(actual, expected) {
     console.log(`🛑🛑🛑 Assertion Failed: "${actual}" !== "${expected}"`);
   }
 };
-
 //eqArrays code
 const eqArrays = function(array1, array2) {
   if (array1.length !== array2.length) {
@@ -32,6 +31,7 @@ const map = function(array, callback) {
   }
   return results;
 }
+
 const results1 = map(words, word => word[0]);
 assertArraysEqual(results1, [ 'g', 'c', 't', 'm', 't' ]);
 
