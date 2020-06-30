@@ -48,3 +48,5 @@ console.log(results3);
 assertArraysEqual(results1, data1.slice(0, 5));
 assertArraysEqual(results2, data2.slice(0, 4));
 assertArraysEqual(results3, ["I", "will", "test", "this"]);
+
+module.exports = takeUntil;

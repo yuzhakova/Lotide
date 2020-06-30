@@ -36,6 +36,9 @@ const ba = { b: "2", a: "1" };
 const abc = { a: "1", b: "2", c: "3" };
 // //eqObjects(ab, abc); // => false
 
+
+module.exports = assertObjectsEqual;
+
 //assertEqual(eqObjects(ab, ba), true);
 //assertEqual(eqObjects(ab, abc), false);
 

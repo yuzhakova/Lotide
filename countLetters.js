@@ -22,6 +22,8 @@ const assertEqual = function(actual, expected) {
   countLetters("Natalia Yuzhakova is a Web Developer");
   console.log(countLetters("Natalia Yuzhakova is a Web Developer"));
   
+  module.exports = countLetters;
+
   // Old If statement before refactor
   // if (value === ' ') {
   //   continue;

@@ -53,6 +53,9 @@ assertEqual(findKey({
   "Akelarre":  { stars: 3 }
 }, x => x.stars === 1), 'Blue Hill');
 
+
+module.exports = findKey;
+
 /*
 const findKey = (object, callback) => {
   for (const key in object) {

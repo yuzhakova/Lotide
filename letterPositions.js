@@ -44,3 +44,5 @@ const assertArraysEqual = function(actual, expected) {
   //console.log(countLetters('I am Web Developer'));
   
   assertArraysEqual(letterPositions("hello").e, [1]);
+
+  module.exports = letterPositions;
