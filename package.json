@@ -1,0 +1,28 @@
+{
+  "name": "lotide",
+  "version": "1.0.0",
+  "description": "for testing pursposes only",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuzhakova/Lotide.git"
+  },
+  "keywords": [
+    "lotide",
+    "lodash",
+    "clone",
+    "test"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuzhakova/Lotide/issues"
+  },
+  "homepage": "https://github.com/yuzhakova/Lotide#readme"
+}
