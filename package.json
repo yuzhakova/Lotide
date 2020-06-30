@@ -1,5 +1,5 @@
 {
-  "name": "lotide",
+  "name": "@yuzhakova/lotide",
   "version": "1.0.0",
   "description": "for testing pursposes only",
   "main": "assertArraysEqual.js",
@@ -19,7 +19,7 @@
     "clone",
     "test"
   ],
-  "author": "",
+  "author": "Natalia Yuzhakova",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/yuzhakova/Lotide/issues"
